@@ -1,0 +1,49 @@
+{
+    "folders": [
+      {
+        "name": "Project_Workspace",
+        "path": ".."
+      },
+    ],
+    "settings": {
+      "files.autoSave": "afterDelay",
+      "workbench.colorCustomizations": {
+        "activityBar.background": "#273538",
+        "titleBar.inactiveBackground": "#273538",
+        "statusBar.background": "#116274",
+        "button.background": "#116274",
+        "focusBorder": "#116274",
+        "scrollbarSlider.background": "#116274",
+        "titleBar.activeBackground": "#116274",
+        "badge.background": "#ff0000",
+        "menu.background": "#ff0000",
+      },
+      "python.testing.pytestArgs": [
+        "py_app"
+      ],
+      "python.testing.unittestEnabled": false,
+      "python.testing.pytestEnabled": true
+    },
+    "extensions": {
+      "recommendations": [
+        "ms-python.python",
+        "hediet.vscode-drawio",
+        "ms-vscode.cpptools",
+        "eamodio.gitlens"
+      ]
+    },
+    "launch": {
+      "configurations": [
+        {
+          "name": "Python: Module",
+          "type": "python",
+          "request": "launch",
+          "module": "app",
+          "justMyCode": true,
+          "cwd": "${fileDirname}/../py_app"
+        }
+      ],
+      "compounds": []
+    }
+}
+  
