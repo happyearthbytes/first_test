@@ -8,6 +8,7 @@ REMOVE_PATTERNS=(
     "./.pytest_cache"
     "*/**/*.pyc"
     "*/**/.DS_Store"
+    "*/**/dist"
 )
 
 for i in "${REMOVE_PATTERNS[@]}"
