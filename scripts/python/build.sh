@@ -49,4 +49,4 @@ done
 set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
 
 cd ${APP_PATH}
-python3 -m pytest
+poetry build
