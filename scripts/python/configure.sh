@@ -50,3 +50,4 @@ set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
 
 cd ${APP_PATH}
 curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+poetry install
