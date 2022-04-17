@@ -1,6 +1,6 @@
-from app.game.model import Model
-from app.game.view_cli import ViewCLI
-from app.game.controller import Controller
+from joe_first_test_app.game.model import Model
+from joe_first_test_app.game.view_cli import ViewCLI
+from joe_first_test_app.game.controller import Controller
 
 class game:
     def __init__(self) -> None:

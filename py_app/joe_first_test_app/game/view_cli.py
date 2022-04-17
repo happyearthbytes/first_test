@@ -1,5 +1,5 @@
-from app.game.view import View
-from app.game.model import Action, Player
+from joe_first_test_app.game.view import View
+from joe_first_test_app.game.model import Action, Player
 
 class ViewCLI(View):
     def display_action(self, player: Player, action: Action) -> None:

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from app.game.model import Model, Action, Player
+from joe_first_test_app.game.model import Model, Action, Player
 from typing import Tuple
 
 

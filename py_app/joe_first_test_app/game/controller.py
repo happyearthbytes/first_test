@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from app.game.model import Model, Action, Player, PlayerType, WIN_LIST
-from app.game.view import View
+from joe_first_test_app.game.model import Model, Action, Player, PlayerType, WIN_LIST
+from joe_first_test_app.game.view import View
 import random
 
 @dataclass

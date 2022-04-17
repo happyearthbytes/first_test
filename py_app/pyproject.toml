@@ -1,8 +1,16 @@
 [tool.poetry]
-name = "app"
+name = "joe_first_test_app"
 version = "0.1.0"
-description = ""
+description = "Description of your package"
 authors = ["Joseph DiPilato <josephdipilato@Josephs-iMac.home>"]
+keywords = ["keyword", "another_keyword"]
+readme = "README.rst"
+license = "MIT"
+homepage = "https://github.com/happyearthbytes/first_test"
+repository = "https://github.com/happyearthbytes/first_test"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -13,3 +21,6 @@ pytest = "^5.2"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+script_name = 'app.__main__:main'

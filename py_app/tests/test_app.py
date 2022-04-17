@@ -1,4 +1,4 @@
-from app.game import game, controller, model, view_cli
+from joe_first_test_app.game import game, controller, model, view_cli
 import pytest
 
 

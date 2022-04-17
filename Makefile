@@ -5,6 +5,8 @@ default:
 	@./start.sh
 configure:
 	@./scripts/python/configure.sh --path py_app
+publish:
+	@./scripts/python/publish.sh --path py_app
 install:
 build:
 	@./scripts/python/build.sh --path py_app
