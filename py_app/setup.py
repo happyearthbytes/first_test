@@ -6,13 +6,14 @@ long_description = (here / "README.rst").read_text(encoding="utf-8")
 
 setup(
     name='test_app',
-    version='1.0',
+    version='0.1.0',
     description='Python Distribution Utilities',
     long_description=long_description,
     author='Greg Ward',
     author_email='gward@python.net',
     url='https://www.python.org/sigs/distutils-sig/',
     packages=find_packages(where="app"),
+    include_package_data=True,
     package_dir={'': 'app'},
     package_data={'app': ['data/*.dat']},
     data_files=[('bitmaps', ['bm/b1.gif', 'bm/b2.gif']),
@@ -40,7 +41,7 @@ setup(
     python_requires=">=3.7, <4",
     entry_points={
         "console_scripts": [
-            "test_app=app:main",
+            "test_app=app.__main__:main",
         ],
     },
     project_urls={
