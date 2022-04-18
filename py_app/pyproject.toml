@@ -8,7 +8,7 @@ readme = "README.rst"
 license = "MIT"
 homepage = "https://github.com/happyearthbytes/first_test"
 repository = "https://github.com/happyearthbytes/first_test"
-documentation = "https://github.com/happyearthbytes/first_test"
+documentation = "https://joe-first-test-app.readthedocs.io"
 include = [
     "LICENSE",
 ]
