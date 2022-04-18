@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "joe_first_test_app"
-version = "0.1.0"
+version = "0.1.1.a2"
 description = "Description of your package"
 authors = ["Joseph DiPilato <josephdipilato@Josephs-iMac.home>"]
 keywords = ["keyword", "another_keyword"]
@@ -8,9 +8,40 @@ readme = "README.rst"
 license = "MIT"
 homepage = "https://github.com/happyearthbytes/first_test"
 repository = "https://github.com/happyearthbytes/first_test"
+documentation = "https://github.com/happyearthbytes/first_test"
 include = [
     "LICENSE",
 ]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    'Environment :: Console',
+    'Environment :: Web Environment',
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Developers',
+    "License :: OSI Approved :: MIT License",
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Programming Language :: Python',
+    'Topic :: Software Development :: Testing :: Acceptance',
+    'Topic :: Software Development :: Testing :: BDD',
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Natural Language :: English",
+]
+packages = [
+    { include = "joe_first_test_app" },
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/happyearthbytes/first_test"
+
+[tool.poetry.scripts]
+script_name = 'app.__main__:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -22,5 +53,3 @@ pytest = "^5.2"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry.scripts]
-script_name = 'app.__main__:main'
