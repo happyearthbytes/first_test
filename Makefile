@@ -13,7 +13,7 @@ build:
 docs:
 	@./scripts/python/docs.sh --path py_app
 run:
-	@./scripts/python/run.sh --path py_app --app app
+	@./scripts/python/run.sh --path py_app --app joe_first_test_app
 scan:
 	@./scripts/python/scan.sh --path py_app
 test:

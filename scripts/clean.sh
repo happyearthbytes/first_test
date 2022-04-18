@@ -4,6 +4,7 @@ BASE_PATH=${SCRIPT_PATH}/..
 
 REMOVE_PATTERNS=(
     "./build"
+    "*/build"
     "*/**/.pytest_cache"
     "./.pytest_cache"
     "*/**/*.pyc"
