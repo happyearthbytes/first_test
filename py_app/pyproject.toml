@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "joe_first_test_app"
-version = "0.1.1.a2"
-description = "Description of your package"
+version = "0.1.2.a3"
+description = "A test application and example"
 authors = ["Joseph DiPilato <josephdipilato@Josephs-iMac.home>"]
 keywords = ["keyword", "another_keyword"]
 readme = "README.rst"
