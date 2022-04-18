@@ -2,8 +2,11 @@
 Example
 ###############################################################################
 
-.. image:: https://img.shields.io/pypi/v/some_link
-    :target: https://pypi.org/project/some_link/
+.. image:: https://img.shields.io/pypi/v/joe-first-test-app
+    :target: https://pypi.org/project/joe-first-test-app/
+
+.. image:: https://readthedocs.org/projects/joe-first-test-app/badge
+    :target: https://joe-first-test-app.readthedocs.io
 
 A test Python library.
 
