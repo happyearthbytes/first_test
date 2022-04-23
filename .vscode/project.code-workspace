@@ -29,7 +29,11 @@
         "ms-python.python",
         "hediet.vscode-drawio",
         "ms-vscode.cpptools",
-        "eamodio.gitlens"
+        "vscode-icons-team.vscode-icons",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker",
+        "lextudio.restructuredtext",
+        "trond-snekvik.simple-rst"
       ]
     },
     "launch": {
