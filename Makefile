@@ -7,6 +7,7 @@ PY_APP := py_app
 
 default:
 	@./start.sh
+setup: local_setup
 ${BASH_SCRIPTS}:
 	@./scripts/bash/$@.sh
 configure:

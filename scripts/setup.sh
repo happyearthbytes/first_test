@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # check if basic tools are installed
 # install make and basic tools
-echo "NOT IMPLEMENTED"
+./scripts/bash/local_setup.sh
