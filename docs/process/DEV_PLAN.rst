@@ -19,13 +19,17 @@ gitlab
 commands
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-things
+done
 ~~~~~~
 
-* Create repo
+* create repo
 * push to accessible location
 * Add a Readme on how to do everything
 * clone repo
+
+todo
+~~~~~~
+
 * Script to install tools for local download
    * Docker
 * Download all dependencies

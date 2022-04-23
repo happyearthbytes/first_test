@@ -15,6 +15,7 @@
 
 |   |
 | - |
+| [Quick Start](docs/markdown/QUICKSTART.md) |
 | [About](docs/markdown/ABOUT.md) |
 | other |
 | thing two |
