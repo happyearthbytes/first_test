@@ -1,8 +1,14 @@
 include scripts/make/common.mk
 
 
+BASH_SCRIPTS := local_setup other
+PY_SCRIPT := build
+PY_APP := py_app
+
 default:
 	@./start.sh
+${BASH_SCRIPTS}:
+	@./scripts/bash/$@.sh
 configure:
 	@./scripts/python/configure.sh --path py_app
 publish:

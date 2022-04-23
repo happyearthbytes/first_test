@@ -2,7 +2,7 @@
 
 Install initial basic tools (This is not required on most machines)
 ```bash
-$ ./scripts/setup.sh
+$ ./start.sh
 ```
 
 Configure the local machine with tools required for local development
