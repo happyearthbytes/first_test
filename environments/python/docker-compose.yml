@@ -1,0 +1,34 @@
+services:
+  python-ctr:
+    image: python-img
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
+    ports:
+      - "443:8043"
+    networks:
+      - front-tier
+    volumes:
+      - db-data:/data
+    # configs:
+    #   - httpd-config
+    # secrets:
+    #   - server-certificate
+    command: echo "I'm running"
+
+volumes:
+  db-data:
+
+configs:
+  httpd-config:
+    external: true
+    # file: ./my_config.txt
+
+secrets:
+  server-certificate:
+    external: true
+
+networks:
+  front-tier: {}
