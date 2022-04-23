@@ -11,7 +11,10 @@ services:
     networks:
       - front-tier
     volumes:
-      - db-data:/data
+      - db-data:/db
+      - ../..:/workspace
+    working_dir: /workspace
+
     # configs:
     #   - httpd-config
     # secrets:
