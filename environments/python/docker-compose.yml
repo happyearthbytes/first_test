@@ -16,7 +16,7 @@ services:
     #   - httpd-config
     # secrets:
     #   - server-certificate
-    command: echo "I'm running"
+    command: /bin/bash
 
 volumes:
   db-data:
