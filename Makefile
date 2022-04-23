@@ -1,4 +1,4 @@
-
+include scripts/make/common.mk
 
 
 default:
