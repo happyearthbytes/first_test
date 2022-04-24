@@ -4,8 +4,9 @@ usage() {
   echo "Usage:"
   echo "$(basename "$0") [options]"
   echo ""
-  echo "    -h|--help            Help"
-  echo "    --verbose            Verbose"
+  echo "    -h|--help             Help"
+  echo "    --verbose             Verbose"
+  echo "    --docker              Docker"
 }
 
 invalid() {
@@ -15,7 +16,9 @@ invalid() {
 }
 
 VERBOSE=NO
+DOCKER=NO
 APP_PATH=""
+APP=""
 
 POSITIONAL_ARGS=()
 
@@ -26,12 +29,20 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       shift # past value
       ;;
+    --app)
+      APP="$2"
+      shift; shift;
+      ;;
     -h|--help)
       usage
       shift # past value
       ;;
     --verbose)
       VERBOSE=YES
+      shift # past argument
+      ;;
+    --docker)
+      DOCKER=YES
       shift # past argument
       ;;
     -*|--*)
@@ -47,6 +58,7 @@ while [[ $# -gt 0 ]]; do
 done
 
 set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
+
 
 cd ${APP_PATH}
 python3 -m pytest
